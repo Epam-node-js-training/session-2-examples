@@ -39,4 +39,7 @@ app.put('/update', [
     }
 ])
 
+//runs on all requests
+app.all('/some/*', ...)
+
 app.listen(8080)
